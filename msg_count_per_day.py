@@ -47,5 +47,5 @@ ax.set_ylabel('Number of Messages')
 ax.set_title('Message Count Per Day')
 
 # Display the plot
-plt.save('output/message_count_per_day.png')
+plt.savefig('output/message_count_per_day.png')
 plt.show()   
